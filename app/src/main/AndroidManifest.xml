@@ -9,6 +9,8 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
+        <activity android:name=".BannerActivity">
+        </activity>
         <activity android:name=".PollingActivity">
         </activity>
         <activity android:name=".TimerTaskActivity">

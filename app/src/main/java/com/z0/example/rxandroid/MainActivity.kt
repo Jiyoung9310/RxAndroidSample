@@ -30,6 +30,9 @@ class MainActivity : AppCompatActivity() {
             R.id.btnPolling -> {
                 startActivity(Intent(this, PollingActivity::class.java))
             }
+            R.id.btnBanner -> {
+                startActivity(Intent(this, BannerActivity::class.java))
+            }
         }
     }
 }

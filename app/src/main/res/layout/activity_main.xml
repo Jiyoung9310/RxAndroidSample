@@ -36,6 +36,17 @@
             android:text="Polling"
             android:onClick="btnClick"
             app:layout_constraintTop_toBottomOf="@id/btnTimer"
+            app:layout_constraintBottom_toTopOf="@id/btnBanner"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnBanner"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Banner"
+            android:onClick="btnClick"
+            app:layout_constraintTop_toBottomOf="@id/btnPolling"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"/>
